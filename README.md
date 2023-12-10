@@ -1,1 +1,8 @@
 # Numerical-methods-for-determining-the-integral
+The Simpson's method is a numerical integration method based on approximating the integrand function on each interval with a parabola passing through three points: the beginning, the middle, and the end of the interval. Then, the sum of the areas of all parabolas is calculated, which gives an approximate value of the integral. This method provides higher accuracy than the trapezoidal and midpoint methods, but also requires more computations.
+
+The midpoint method is a numerical integration method based on dividing the integration interval into equal parts and approximating the integrand function on each interval with a rectangle with a height equal to the value of the function at the midpoint of the interval. Then, the sum of the areas of all rectangles is calculated, which gives an approximate value of the integral. The more rectangles used, the more accurate the value of the integral obtained. However, increasing the number of rectangles increases the computational complexity of the method.
+
+The trapezoidal method is a numerical integration method based on approximating the integrand function on each interval with a trapezoid formed by two points: the beginning and end of the interval, connected by a line segment. Then, the sum of the areas of all trapezoids is calculated, which gives an approximate value of the integral. This method is one of the simplest and fastest, but provides less accuracy than Simpson's and midpoint methods.
+
+In general, numerical methods for computing the value of an integral allow obtaining an approximate value without requiring an analytical solution. The choice of a specific method depends on the required accuracy and computational capabilities.
